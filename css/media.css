@@ -412,6 +412,9 @@
     .popular {
         padding-bottom: 12px;
     }
+    .popular__box img{
+        width: 100%;
+    }
     .popular__grid {
         display: flex;
         flex-wrap: wrap;
@@ -430,7 +433,6 @@
         line-height: 18px;
         margin: 0;
     }
-
     .popular__box .popular-desc {
         font-size: 10px;
     }
@@ -548,9 +550,10 @@
     .header__right .link-search{
         margin-right: 20px;
     }
+
 }
 
-@media (max-width: 480px) {  /* 0-480 */
+@media (max-width: 480px) {  /* 466-480 */
     .header__logo {
         font-size: 12px;
         line-height: 36px;
@@ -631,6 +634,13 @@
     }
     .copyright__box span {
         line-height: 18px;
+    }
+    .popular__box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu__item:not(:last-child) {
+        margin-right: 5px;
     }
 }
 
