@@ -1,0 +1,637 @@
+@media (max-width: 1024px) {  /* 993-1024 */
+    .container {
+        max-width: 970px;
+    }
+    .hero__grid img {
+        width: 298px;
+    }
+
+    .hero__grid {
+        grid-template-columns: 34% 2fr;
+        grid-column-gap: 0;
+    }
+
+    .hero__overlay .overlay-info .overlay-title {
+        font-size: 22px;
+    }
+
+    .content__right {
+        padding-left: 51px;
+    }
+
+    .popular__grid {
+        grid-template-columns: repeat(4, 213px);
+    }
+
+    .popular__box {
+        width: 235px;
+    }
+
+    .footer__middle .middle-box .middle-title {
+        font-size: 11px;
+    }
+
+    .footer__middle .middle-box .middle-desc {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 992px) {  /* 769-992 */
+    .container {
+        max-width: 750px;
+    }
+    .menu__item:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    .hero__grid img {
+        width: 100%;
+    }
+    .hero__right-side {
+        grid-gap: 10px;
+    }
+
+    .hero__grid {
+        grid-template-columns: 36% 64%;
+        grid-column-gap: 10px;
+    }
+
+    .hero__overlay .overlay-info {
+        padding: 0 3px 22px 10px;
+    }
+
+    .hero__overlay .overlay-btn {
+        padding: 30px 0 0 10px;
+    }
+
+    .hero__overlay .overlay-info .overlay-desc {
+        font-size: 12px;
+    }
+
+    .hero__overlay .overlay-info .overlay-title {
+        font-size: 17px;
+    }
+
+    .content__box img {
+        width: 490px;
+    }
+
+    .content__card {
+        width: 450px;
+        bottom: -104px;
+        padding: 15px 30px 15px 25px;
+    }
+
+    .content__title {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 14px 0 8px;
+    }
+
+    .content__desc {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .content__info {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 14px;
+    }
+
+    .content__icons .pagination {
+        width: 35px;
+        height: 35px;
+    }
+
+    .content__right {
+        padding-left: 29px;
+    }
+
+    .content__sidebar img {
+        width: 222px;
+    }
+
+    .content__right .title {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .content__right .info {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .content__right .right-btn {
+        padding: 15px 45px;
+        font-size: 12px;
+    }
+
+    .content__right .popular-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .content__footer-grid img {
+        width: 105px;
+    }
+
+    .content__sidebar .footer-btn {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 17px 61px 17px 54px;
+    }
+
+    .content__sidebar .tags-btn {
+        padding: 7px 9px;
+        font-size: 11px;
+    }
+
+    .content__sidebar .form-desc {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .content__sidebar .input {
+        width: 100%;
+        padding: 12px 84px 12px 15px;
+    }
+
+    .content__sidebar .form-btn {
+        width: 100%;
+        padding: 12px 36px;
+    }
+
+    .content__sidebar .form-btn {
+        font-size: 11px;
+    }
+
+    .popular__grid {
+        grid-template-columns: repeat(4, 158px);
+    }
+
+    .popular__title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .popular__box {
+        width: 175px;
+    }
+
+    .popular__btn {
+        top: 10px;
+        left: 10px;
+    }
+
+    .popular__box img {
+        width: 100%;
+    }
+
+    .popular__box .popular-title {
+        font-size: 14px;
+    }
+
+    .popular__box .popular-desc {
+        font-size: 13px;
+    }
+
+    .footer__content {
+        justify-content: space-between;
+    }
+
+    .footer__left {
+        width: 190px;
+    }
+
+    .footer__left-desc {
+        font-size: 11px;
+        line-height: 21px;
+        margin: 20px 0 37px;
+    }
+
+    .footer__left-title {
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+
+    .footer__social .icon {
+        width: 30px;
+        height: 25px;
+    }
+
+    .footer__middle {
+        width: 248px;
+        margin: 0;
+    }
+
+    .footer__right {
+        width: 190px;
+    }
+
+    .footer__right .input {
+        width: 100%;
+        padding: 12px 84px 12px 15px;
+        font-size: 11px;
+    }
+    .footer__right .form-btn {
+        width: 100%;
+        padding: 12px 23px;
+        font-size: 10px;
+    }
+    .copyright__box span {
+        font-size: 12px;
+    }
+    .menu__link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {  /* 481-768 */
+    .container {
+        max-width: 540px;
+    }
+
+    .header {
+        padding: 16px 0;
+    }
+    .hero__grid {
+        grid-template-columns: 36% 64%;
+        grid-column-gap: 5px;
+    }
+    .hero__right-side {
+        grid-gap: 5px;
+    }
+    .hero__overlay .overlay-btn {
+        padding: 10px 0 0 10px;
+    }
+    .btn {
+        padding: 2px 10px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .overlay-desc {
+        font-size: 10px;
+    }
+    .hero__overlay .overlay-info .overlay-desc {
+        font-size: 9px;
+    }
+    .hero__overlay .overlay-info .overlay-title {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .content__box {
+        margin-bottom: 120px;
+    }
+    .content__box img {
+        width: 309px;
+    }
+    .content__card {
+        width: 280px;
+        left: 13px;
+        bottom: -91px;
+        padding: 7px 6px 7px 12px;
+    }
+    .btn {
+        padding: 2px 10px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .content__title {
+        font-size: 11px;
+        line-height: 10px;
+        margin: 11px 0 6px;
+    }
+
+    .content__desc {
+        font-size: 9px;
+        line-height: 10px;
+    }
+
+    .content__info {
+        font-size: 8px;
+        line-height: 19px;
+        margin-top: 7px;
+    }
+
+    .content__icons .pagination {
+        width: 35px;
+        height: 35px;
+    }
+
+    .content__right {
+        padding-left: 16px;
+    }
+    .content__sidebar {
+        margin-bottom: 6px;
+    }
+    .content__sidebar img {
+        width: 100%;
+    }
+
+    .content__right .title {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .content__right .desc {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .content__right .info {
+        line-height: 19px;
+        font-size: 8px;
+    }
+
+    .content__right .right-btn {
+        padding: 10px 16px;
+        font-size: 10px;
+    }
+    .content__footer-grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__right .post-title {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+
+    .content__right .popular-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .content__sidebar .sidebar-title {
+        font-size: 14px;
+        margin: 0;
+    }
+    .content__sidebar .footer-btn {
+        font-size: 11px;
+        line-height: 12px;
+        padding: 12px 8px 12px 17px;
+    }
+    .content__sidebar .sidebar-title {
+        font-size: 12px;
+        margin: 0;
+    }
+    .content__sidebar .tags-btn {
+        padding: 1px 1px;
+        font-size: 8px;
+    }
+    .content__sidebar .form-title {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .content__sidebar .form-desc {
+        font-size: 8px;
+        line-height: 12px;
+        margin: 10px 0;
+    }
+    .content__btn {
+        position: absolute;
+        top: 0;
+        left: 5px;
+    }
+    .content__right .popular-title {
+        font-size: 11px;
+        line-height: 20px;
+        margin: 0;
+    }
+    .content__right .popular-desc{
+        font-size: 10px;
+    }
+    .content__sidebar .input {
+        padding: 8px 12px 8px 15px;
+        font-size: 10px;
+    }
+
+    .content__sidebar .form-btn {
+        width: 100%;
+        padding: 8px 4px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .popular {
+        padding-bottom: 12px;
+    }
+    .popular__grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .popular__title {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .popular__box {
+        width: 150px;
+    }
+    .popular__box .popular-title {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+    }
+
+    .popular__box .popular-desc {
+        font-size: 10px;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+    .footer__content {
+        display: block;
+    }
+    .footer__left {
+        width: 100%;
+    }
+    .header__logo {
+        font-size: 19px;
+    }
+    .footer__left-desc {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 20px 0 25px;
+    }
+
+    .footer__left-title {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .footer__social .icon {
+        width: 35px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer__middle {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__middle-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer__middle .middle-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__right {
+        width: 100%;
+    }
+    .footer__middle .middle-box .info {
+        margin: 20px 0 0 10px;
+    }
+    .footer__middle .middle-box .middle-title {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .footer__middle .middle-box .middle-desc {
+        font-size: 12px;
+    }
+    .footer__right{
+        width: 60%;
+    }
+    .footer__right-title {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+    .footer__right .input {
+        padding: 8px 12px 8px 15px;
+        font-size: 10px;
+    }
+    .footer__right .form-btn {
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    .copyright {
+        padding: 15px 0;
+    }
+    .copyright__box span {
+        font-size: 10px;
+    }
+    .menu__link {
+        font-size: 10px;
+    }
+    /*BURGER MENU*/
+    .menu {
+        position: fixed;
+        right: -100%;
+        top:0;
+        height: 100%;
+        width: 50%;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .6s;
+        z-index: 19;
+    }
+
+    .menu.show {
+        right: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+        background: none;
+        border: none;
+        order: 3;
+    }
+    .menu__item:not(:last-child) {
+        margin-right: 0;
+    }
+    .header__right{
+        display: flex;
+    }
+    .header__right .link-search{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {  /* 0-480 */
+    .header__logo {
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .header__btn {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .hero {
+        padding: 15px 0;
+    }
+    .hero__grid {
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .content__grid {
+        grid-template-columns: 1fr;
+    }
+    .content__box img {
+        width: 100%;
+    }
+    .content__card {
+        left: 9px;
+        width: 95%;
+    }
+    .content__right {
+        padding-left: 0;
+    }
+    .content__right .right-btn {
+        width: 130px;
+        padding: 10px 16px;
+        font-size: 10px;
+    }
+    .content__sidebar .footer-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content__sidebar{
+        position: relative;
+    }
+    .content__sidebar {
+        width: 100%;
+    }
+    .content__footer-grid {
+        display: grid;
+    }
+    .content__sidebar .tags-btn {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+    .footer__content {
+        display: block;
+    }
+    .footer__left{
+        width: 100%;
+    }
+    .footer__social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__middle .middle-box {
+        margin-bottom: 10px;
+    }
+    .footer__right .form-btn {
+        font-size: 7px;
+    }
+    .footer__middle{
+        width: 100%;
+    }
+    .footer__right{
+        width: 100%;
+    }
+    .copyright__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .copyright__box span {
+        line-height: 18px;
+    }
+}
+
+
